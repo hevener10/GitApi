@@ -4,7 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="073c390a-1895-4dcd-9d4a-3a001f6360a8" name="Changes" comment="" />
+    <list default="true" id="073c390a-1895-4dcd-9d4a-3a001f6360a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openapitools_jackson_databind_nullable_0_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_4_15_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/infrastructure/validation/Validacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/capitani/api/util/GitUserResponseCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/GIT.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/.openapi-generator/FILES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/.openapi-generator/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/.openapi-generator/openapi.yaml-default.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/org/openapitools/api/ApiUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/org/openapitools/api/GitApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/org/openapitools/model/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/org/openapitools/model/GitUserRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testes-tecnicos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testes-tecnicos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/ApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/GitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/GitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/representation/GitUserRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/representation/GitUserRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/representation/mapper/GitUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/domain/git/resultado/GitUserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/domain/git/resultado/GitUserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/domain/git/resultado/GitUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/domain/git/resultado/GitUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/domain/git/resultado/GitUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/domain/git/resultado/GitUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/infrastructure/persistence/jpa/JPAGitUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/infrastructure/persistence/jpa/JPAGitUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/infrastructure/ws/rest/GitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/capitani/api/infrastructure/ws/rest/GitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/capitani/api/Service/GitServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/capitani/api/Service/GitServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/ApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/ApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/application/GitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/application/GitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/application/representation/GitUserRepresentation$GitUserRepresentationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/application/representation/GitUserRepresentation$GitUserRepresentationBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/application/representation/GitUserRepresentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/application/representation/GitUserRepresentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/application/representation/mapper/GitUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserModel$GitUserModelBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserModel$GitUserModelBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserResponse$GitUserResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserResponse$GitUserResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/domain/git/resultado/GitUserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/infrastructure/persistence/jpa/JPAGitUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/infrastructure/persistence/jpa/JPAGitUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/capitani/api/infrastructure/ws/rest/GitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/capitani/api/infrastructure/ws/rest/GitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/capitani/api/Service/GitServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/capitani/api/Service/GitServiceTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +65,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -33,20 +88,25 @@
     </option>
   </component>
   <component name="ProjectId" id="2Li907OVhmWlX1oiagbGArMza4X" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.capitani.api.Configuration" />
@@ -66,32 +126,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GitServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes-tecnicos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.capitani.api.*" />
+          <option name="PATTERN" value="br.com.capitani.api.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.capitani.api" />
-      <option name="MAIN_CLASS_NAME" value="br.com.capitani.api.ApiApplicationTests" />
+      <option name="PACKAGE_NAME" value="br.com.capitani.api.Service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.capitani.api.Service.GitServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GitServiceTest.testGitService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes-tecnicos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.capitani.api.*" />
+          <option name="PATTERN" value="br.com.capitani.api.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.capitani.api" />
-      <option name="MAIN_CLASS_NAME" value="br.com.capitani.api.ApiApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="PACKAGE_NAME" value="br.com.capitani.api.Service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.capitani.api.Service.GitServiceTest" />
+      <option name="METHOD_NAME" value="testGitService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitServiceTest.testGitServiceWhenIsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes-tecnicos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.capitani.api.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.capitani.api.Service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.capitani.api.Service.GitServiceTest" />
+      <option name="METHOD_NAME" value="testGitServiceWhenIsNotNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitServiceTest.testGitServiceWhenIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes-tecnicos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.capitani.api.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.capitani.api.Service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.capitani.api.Service.GitServiceTest" />
+      <option name="METHOD_NAME" value="testGitServiceWhenIsNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,8 +192,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ApiApplication" />
-        <item itemvalue="JUnit.ApiApplicationTests" />
-        <item itemvalue="JUnit.ApiApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.GitServiceTest.testGitServiceWhenIsNotNull" />
+        <item itemvalue="JUnit.GitServiceTest.testGitServiceWhenIsNull" />
+        <item itemvalue="JUnit.GitServiceTest.testGitService" />
+        <item itemvalue="JUnit.GitServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +209,9 @@
       <updated>1676342809476</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -130,29 +227,19 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/GitService.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/representation/mapper/GitUserMapper.java</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/representation/mapper/GitUserMapper.java</url>
-          <line>20</line>
+          <line>47</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/representation/mapper/GitUserMapper.java</url>
-          <line>19</line>
+          <line>46</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/capitani/api/application/GitService.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

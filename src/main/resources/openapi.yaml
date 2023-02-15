@@ -1,0 +1,53 @@
+openapi: 3.0.0
+info:
+  title: Git API
+  version: 1.0.0
+paths:
+  /git/{user}:
+    get:
+      summary: Retorna os dados da api do git
+      parameters:
+        - name: user
+          in: path
+          description: Usuario do git
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GitUserRepresentation'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  schemas:
+    GitUserRepresentation:
+      type: object
+      properties:
+        login:
+          type: string
+          description: The username of the Git user
+        name:
+          type: string
+          description: The full name of the Git user
+        email:
+          type: string
+          description: The email address of the Git user
+      required:
+        - login
+        - name
+    Error:
+      type: object
+      properties:
+        message:
+          type: string
+          description: A human-readable error message
+      required:
+        - message

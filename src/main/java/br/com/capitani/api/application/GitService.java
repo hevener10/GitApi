@@ -1,20 +1,16 @@
 package br.com.capitani.api.application;
 
-import br.com.capitani.api.application.representation.mapper.GitUserMapper;
+import br.com.capitani.api.application.representation.GitUserRepresentation;
+import br.com.capitani.api.domain.git.resultado.GitUserModel;
 import br.com.capitani.api.domain.git.resultado.GitUserRepository;
-import br.com.capitani.api.domain.git.resultado.GitUserResponse;
 import br.com.capitani.api.infrastructure.feign.Exeption.GitUsuarioNaoEncontrado;
 import br.com.capitani.api.infrastructure.feign.GitClient;
-import com.google.gson.Gson;
-import feign.Request;
-import feign.Response;
+import br.com.capitani.api.infrastructure.validation.Validacao;
 import feign.RetryableException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
-
-import java.net.UnknownHostException;
 
 @Service
 public class GitService {
@@ -31,11 +27,13 @@ public class GitService {
         this.gitUserRepository = gitUserRepository;
     }
 
-    public GitUserResponse findUser(String user) throws GitUsuarioNaoEncontrado {
+    public GitUserRepresentation findUser(String user) throws GitUsuarioNaoEncontrado {
+        Validacao.notNull(user);
         try {
             var github = gitClient.getUserData(user);
-            gitUserRepository.add(GitUserMapper.toModel(github));
-            return github;
+            GitUserModel gitUserModel = github.toModel(github);
+            gitUserRepository.save(gitUserModel);
+            return gitUserModel.toRepresentation(gitUserModel);
         } catch (RetryableException ex) {
 
             throw new ResponseStatusException(

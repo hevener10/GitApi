@@ -1,0 +1,165 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "OpenAPI definition",
+    "version": "v0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "description": "Generated server url"
+    }
+  ],
+  "paths": {
+    "/git/{user}": {
+      "get": {
+        "tags": [
+          "git-controller"
+        ],
+        "operationId": "findUser",
+        "parameters": [
+          {
+            "name": "user",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/GitUserRepresentation"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "GitUserRepresentation": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "idGit": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "login": {
+            "type": "string"
+          },
+          "nodeId": {
+            "type": "string"
+          },
+          "avatarUrl": {
+            "type": "string"
+          },
+          "gravatarId": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "htmlUrl": {
+            "type": "string"
+          },
+          "followersUrl": {
+            "type": "string"
+          },
+          "followingUrl": {
+            "type": "string"
+          },
+          "gistsUrl": {
+            "type": "string"
+          },
+          "starredUrl": {
+            "type": "string"
+          },
+          "subscriptionsUrl": {
+            "type": "string"
+          },
+          "organizationsUrl": {
+            "type": "string"
+          },
+          "reposUrl": {
+            "type": "string"
+          },
+          "eventsUrl": {
+            "type": "string"
+          },
+          "receivedEventsUrl": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "siteAdmin": {
+            "type": "boolean"
+          },
+          "name": {
+            "type": "string"
+          },
+          "company": {
+            "type": "string"
+          },
+          "blog": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "hireable": {
+            "type": "boolean"
+          },
+          "bio": {
+            "type": "string"
+          },
+          "twitterUsername": {
+            "type": "string"
+          },
+          "publicRepos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "publicGists": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "followers": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "following": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dataConsulta": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    }
+  }
+}

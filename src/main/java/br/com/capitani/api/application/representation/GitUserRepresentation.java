@@ -13,6 +13,8 @@ import java.util.UUID;
 public class GitUserRepresentation {
     private UUID id;
 
+    private Long idGit;
+
     private String login;
 
     private String nodeId;
@@ -91,4 +93,6 @@ public class GitUserRepresentation {
 
 
     private LocalDateTime updatedAt;
+
+    private LocalDateTime dataConsulta;
 }

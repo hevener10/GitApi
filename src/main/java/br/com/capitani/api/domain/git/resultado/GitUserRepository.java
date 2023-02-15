@@ -1,9 +1,11 @@
 package br.com.capitani.api.domain.git.resultado;
 
-import br.com.capitani.api.domain.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
-public interface GitUserRepository extends Repository<GitUserModel, UUID>{
+@Repository
+public interface GitUserRepository extends JpaRepository<GitUserModel, UUID> {
 
 }

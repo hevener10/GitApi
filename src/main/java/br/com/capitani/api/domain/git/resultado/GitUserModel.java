@@ -1,5 +1,6 @@
 package br.com.capitani.api.domain.git.resultado;
 
+import br.com.capitani.api.application.representation.GitUserRepresentation;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.envers.Audited;
@@ -20,10 +21,10 @@ import java.util.UUID;
 public class GitUserModel implements Serializable {
 
     @Id
-    private UUID id;
     @GeneratedValue(generator = "uuid")
     @GenericGenerator(name = "uuid", strategy = "uuid2")
     @EqualsAndHashCode.Include
+    private UUID id;
 
     @Column(name = "id_git")
     private Long idGit;
@@ -107,4 +108,44 @@ public class GitUserModel implements Serializable {
 
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
+
+    private LocalDateTime dataConsulta;
+
+    public GitUserRepresentation toRepresentation(GitUserModel github) {
+        return GitUserRepresentation.builder()
+                .id(github.getId())
+                .idGit(github.getIdGit())
+                .login(github.getLogin())
+                .name(github.getName())
+                .avatarUrl(github.getAvatarUrl())
+                .gravatarId(github.getGravatarId())
+                .url(github.getUrl())
+                .htmlUrl(github.getHtmlUrl())
+                .followersUrl(github.getFollowersUrl())
+                .followingUrl(github.getFollowingUrl())
+                .gistsUrl(github.getGistsUrl())
+                .starredUrl(github.getStarredUrl())
+                .subscriptionsUrl(github.getSubscriptionsUrl())
+                .organizationsUrl(github.getOrganizationsUrl())
+                .reposUrl(github.getReposUrl())
+                .eventsUrl(github.getEventsUrl())
+                .receivedEventsUrl(github.getReceivedEventsUrl())
+                .type(github.getType())
+                .siteAdmin(github.isSiteAdmin())
+                .company(github.getCompany())
+                .blog(github.getBlog())
+                .location(github.getLocation())
+                .email(github.getEmail())
+                .hireable(github.getHireable())
+                .bio(github.getBio())
+                .twitterUsername(github.getTwitterUsername())
+                .publicRepos(github.getPublicRepos())
+                .publicGists(github.getPublicGists())
+                .followers(github.getFollowers())
+                .following(github.getFollowing())
+                .createdAt(github.getCreatedAt())
+                .updatedAt(github.getUpdatedAt())
+                .dataConsulta(github.getDataConsulta())
+                .build();
+    }
 }
